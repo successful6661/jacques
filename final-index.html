@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>在表单中添加单选按钮</title>
+</head>
+
+<body>
+    <h1>心理小测试：拖鞋方式见人心</h1>
+    <form>
+        <datalist id="院系">
+            <option value="经济学院"></option>
+            <option value="法学院"></option>
+            <option value="艺术学院"></option>
+            <option value="人文学院"></option>
+        </datalist>
+        <p>请输入你的姓名：<input name="姓名" value="" />&nbsp;&nbsp;<label>你的院系：<input list="院系" name="院系" value=""></label></p>
+        <hr>
+        <p>下班回家，在门口脱下来鞋子，从脱下鞋子的摆放形式，可以反映出你的性格的中心部分呢。试试看吧：</p>
+        <hr>
+        <p>
+            <input type="radio" name="形式" value="鞋尖朝入口处排好" />鞋尖朝入口处排好
+            <br><input type="radio" name="形式" value="鞋尖朝进来的方向排好" />鞋尖朝进来的方向排好
+            <br><input type="radio" name="形式" value="就是脱掉的样子" />就是脱掉的样子
+            <br><input type="radio" name="形式" value="由同住在一起的人帮你脱" />由同住在一起的人帮你脱
+        </p>
+        <p><input type="submit" name="submit" value="提交"></p>
+    </form>
+</body>
+
+</html>
